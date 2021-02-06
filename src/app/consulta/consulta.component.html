@@ -1,0 +1,16 @@
+<app-consulta-por-especialidade
+  tipo="primary"
+  titulo="Consultas Realizadas - últimos 30 dias"
+  col="6"
+  [consultas]="consultas?.realizadas"
+  [erro]="erro"
+>
+</app-consulta-por-especialidade>
+<app-consulta-por-especialidade
+  tipo="primary"
+  titulo="Consultas Marcadas - Próximos 30 dias"
+  col="6"
+  [consultas]="consultas?.marcadas"
+  [erro]="erro"
+>
+</app-consulta-por-especialidade>
